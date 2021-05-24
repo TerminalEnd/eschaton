@@ -1,0 +1,22 @@
+[Unit]
+Description=Eschaton's distributed currency daemon
+After=network.target
+
+[Service]
+User=eschaton
+Group=eschaton
+
+Type=forking
+PIDFile=/var/lib/eschcoind/eschcoind.pid
+ExecStart=/usr/bin/eschcoind -daemon -pid=/var/lib/eschcoind/eschcoind.pid \
+-conf=/etc/eschaton/eschaton.conf -datadir=/var/lib/eschcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

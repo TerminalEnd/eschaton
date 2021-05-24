@@ -1,0 +1,33 @@
+# /etc/conf.d/eschcoind: config file for /etc/init.d/eschcoind
+
+# Config file location
+#ESCHCOIND_CONFIGFILE="/etc/eschaton/eschaton.conf"
+
+# What directory to write pidfile to?  (created and owned by $ESCHCOIND_USER)
+#ESCHCOIND_PIDDIR="/var/run/eschcoind"
+
+# What filename to give the pidfile
+#ESCHCOIND_PIDFILE="${ESCHCOIND_PIDDIR}/eschcoind.pid"
+
+# Where to write eschcoind data (be mindful that the blockchain is large)
+#ESCHCOIND_DATADIR="/var/lib/eschcoind"
+
+# User and group to own eschcoind process
+#ESCHCOIND_USER="eschaton"
+#ESCHCOIND_GROUP="eschaton"
+
+# Path to eschcoind executable
+#ESCHCOIND_BIN="/usr/bin/eschcoind"
+
+# Nice value to run eschcoind under
+#ESCHCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+ESCHCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for eschcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+ESCHCOIND_SIGTERM_TIMEOUT=60

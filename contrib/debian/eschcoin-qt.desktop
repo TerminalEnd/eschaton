@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Eschaton Core
+Comment=Connect to the Eschaton P2P Network
+Comment[de]=Verbinde mit dem Eschaton peer-to-peer Netzwerk
+Comment[fr]=Eschaton, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Eschaton, eşten eşe kriptografik sanal para birimi
+Exec=eschaton-qt %u
+Terminal=false
+Type=Application
+Icon=eschcoin128
+MimeType=x-scheme-handler/eschaton;
+Categories=Office;Finance;

@@ -76,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>DogecoinGUI</name>
+    <name>EschcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Semnează &amp;mesajul...</translation>
@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Trimite monedele către o adresă Dogecoin</translation>
+        <source>Send coins to a Eschaton address</source>
+        <translation>Trimite monedele către o adresă Eschaton</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Eschaton</source>
+        <translation>Eschaton</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Dogecoin pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Eschaton addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Eschaton pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Dogecoin specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Eschaton addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Eschaton specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și dogecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and eschaton: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și eschaton: URIs)</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Deschide un dogecoin: URI sau cerere de plată</translation>
+        <source>Open a eschaton: URI or payment request</source>
+        <translation>Deschide un eschaton: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -746,10 +746,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dogecoin-core</name>
+    <name>eschaton-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Eschaton Core</source>
+        <translation>Eschaton Core</translation>
     </message>
     <message>
         <source>Information</source>
